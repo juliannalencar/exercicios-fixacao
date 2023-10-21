@@ -9,3 +9,11 @@ Ex:
     milhar 1
 
 '''
+
+numero = int(input('Digite um número entre 0 e 9999: '))
+numero_separado = numero.strip()
+
+print(f'Unidade: {numero[3]}')
+print(f'Dezena: {numero[2]}')
+print(f'Centena: {numero[1]}')
+print(f'Milhar: {numero[0]}')
