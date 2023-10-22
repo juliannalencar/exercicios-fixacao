@@ -6,7 +6,7 @@ Faça um programa que leia uma frase pelo teclado e mostre:
 
 '''
 
-frase = input('Digite uma frase: ').upper()
+frase = str(input('Digite uma frase: ')).upper().strip()
 
 quantidade_A = frase.count('A')
 primeira_posicao = frase.find('A') + 1
